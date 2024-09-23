@@ -1,0 +1,76 @@
+h1 { 
+    color: white; 
+    font-size: 50px; 
+    font-family: url(../Fontes/RocaOne-Th.ttf);
+    text-align: center;
+} 
+body {
+    background-color: #0a5247;
+}
+p {
+    color: #0a5247;
+    font-size: 15px;
+    text-align: left;
+}
+h4 {
+    line-height: 80px;
+    font-size: 20px;
+    color:#0a5247;
+}
+h3 {
+    color: #0a5247;
+}
+main section {
+    display: flex;
+    justify-content: center;
+  }
+main section div{
+    background-color: white;
+    margin: 60px;
+    padding: 20px;
+    width: 300px;
+    height: 280px;
+    text-align: center;   
+    border-radius: 20px;
+}
+main section div h3{
+    padding-bottom: 50px;
+}
+header {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    margin-bottom: 5px;
+}
+header img {
+    width: 100px;
+}
+ul {
+    display: flex;
+    height: 100%;
+    align-items: right;
+} 
+nav ul li {
+    padding-left: 15px;
+    list-style-type: none;
+}
+.menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.menu nav ul li a {
+    padding: 10px 20px;
+    font-family: url(../Fontes/JetBrainsMono-Bold.ttf), sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.6s;
+    color:#0a5247;
+    border-radius: 20px;
+}
+.menu nav ul li a:hover {
+    background-color:#0a5247;
+    color:white;
+}

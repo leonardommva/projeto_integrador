@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos e Feiras</title>
+    <link rel="stylesheet" href="../CSS/eventosefeiras.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../fotos/logo_contato.png.png" alt="Logo">
+        </a>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="../HTML/sobrenos.html">SOBRE NÓS</a></li>
+                    <li><a href="../HTML/eventosefeiras.html">EVENTOS E FEIRAS</a></li>
+                    <li><a href="../HTML/feedbacks.html">FEEDBACKS</a></li>
+                    <li><a href="../HTML/curiosidades.html">CURIOSIDADES</a></li>
+                    <li><a href="../HTML/receitas.html">RECEITAS</a></li>
+                    <li><a href="../HTML/contatos.html">CONTATOS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="superior">
+        <h1>EVENTOS E FEIRAS</h1>
+        <p>Fique por dentro dos eventos e feiras próximas a sua região:</p>
+        <div class="busca">
+            <input type="text" id="buscar" placeholder="Insira sua cidade"> 
+            <button id="search-button"><img src="../fotos/lupa.png" alt="Buscar"></button> 
+        </div>
+        <div class="eventos" id="feiras">
+            <div class="evento" data-city="São Paulo"> 
+                <img src="../fotos/bio_brasil.png" alt="Bio Brazil Fair / BioFach América Latina">
+                <h4>Bio Brazil Fair/ BioFach América Latina (São Paulo, SP)</h4>
+                <button>INSCREVA-SE</button>
+            </div>
+            <div class="evento" data-city="Rio de Janeiro"> 
+                <img src="../fotos/green_rio.jpg" alt="Green Rio">
+                <h4>Green Rio (Rio de Janeiro, RJ)</h4>
+                <button>INSCREVA-SE</button>
+            </div>
+            <div class="evento" data-city="São Paulo"> 
+                <img src="../fotos/feira.jpeg" alt="Feira da Reforma Agrária">
+                <h4>Feira Nacional de Agricultura Familiar e Reforma Agrária (São Paulo, SP)</h4>
+                <button>INSCREVA-SE</button>
+            </div>
+            <div class="evento" data-city="Porto Alegre"> 
+                <img src="../fotos/hotel-visao-feira-mel-nata-rosca09.webp" alt="Feira do Mel, Rosca e Nata (Porto Alegre, RS)">
+                <h4>Feira do Mel, Rosca e Nata (Porto Alegre, RS)</h4>
+                <button>INSCREVA-SE</button>
+            </div>
+        </div>
+        <p id="no-results" style="display: none;">Cidade não encontrada.</p> 
+    </div>
+    <script src="../Java/eventosefeitas.js"></script> 
+</body>
+</html>

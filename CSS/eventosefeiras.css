@@ -1,0 +1,184 @@
+body { 
+    background-color: #e7e8e9; 
+    font-family: url(../Fontes/JetBrainsMono-Bold.ttf);
+    margin: 0; 
+    padding: 0; 
+    text-align: center;
+} 
+
+.superior { 
+    text-align: center; 
+    padding: 20px;
+} 
+
+h1 { 
+    color: #0a5247; 
+    font-size: 45px;
+    font-family: url(../Fontes/JetBrainsMono-Bold.ttf);
+} 
+
+p { 
+    color: #333; 
+    font-size: 24px; 
+    width: 760px;
+    text-align: center;
+    margin: 0 auto;
+} 
+
+.busca { 
+    margin: 10px 0; 
+    text-align: right;
+} 
+
+.busca input { 
+    padding: 10px; 
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    width: 200px; 
+} 
+
+.busca button { 
+    background-color: #0a5247; 
+    border: none; 
+    padding: 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-left: 10px; 
+} 
+
+.busca button img { 
+    width: 16px; 
+    height: 16px; 
+} 
+
+.eventos { 
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap;
+}
+
+.evento {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#noResults {
+    color: red;
+    font-weight: bold;
+}
+
+.evento.hidden {
+    display: none;
+} 
+
+.evento img {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.5s;
+}
+
+.evento:hover img {
+    transform: scale(1.1);
+}
+
+.evento p {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+    word-wrap: break-word;
+    flex-shrink: 0;
+}
+
+.evento button {
+    background-color: #0a5247;
+    color: white;
+    border: none;
+    padding: 20px 85px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px 0;
+} 
+ 
+.evento button:hover {
+    background-color: #084d3e;
+} 
+
+.menu {
+    display: flex;
+    justify-content: right;
+}
+
+header {
+    background-color:#0a5247;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    margin-bottom: 5px;
+}
+
+menu ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul {
+    display: flex;
+    height: 100%;
+    align-items: right;
+} 
+
+nav ul li {
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+header img {
+    width: 100px;
+}
+
+.menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu nav ul li {
+    padding-left: 15px;
+}
+
+.menu nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu nav ul li a {
+    padding: 10px 15px;
+    font-family: url(../Fontes/JetBrainsMono-Bold.ttf);
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.6s;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.menu nav ul li a:hover {
+    background-color: white;
+    color: #0a5247;
+}
